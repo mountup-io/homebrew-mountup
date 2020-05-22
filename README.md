@@ -3,6 +3,6 @@
 To install mountup:
 
 ```bash
-brew install mountup-io/homebrew-mountup/mountup
+brew install mountup-io/mountup/mountup
 ```
 

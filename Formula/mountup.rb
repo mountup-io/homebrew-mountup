@@ -13,6 +13,7 @@ class Mountup < Formula
     bin_path = buildpath/"src/github.com/mountup-io/mountup"
     bin_path.install Dir["*"]
     cd bin_path do
+      system "go", "get", "."
       system "go", "build", "-o", bin/"mountup", "."
     end
   end
